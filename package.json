@@ -1,0 +1,14 @@
+{
+  "name": "hoyolab-checkin-note-endgame",
+  "version": "1.0.0",
+  "description": "호요랩 자동 출석 / 붕괴: 스타레일 실시간 메모 / 빛 따라 금 찾아 일정 (분리 실행)",
+  "type": "module",
+  "scripts": {
+    "checkin": "node checkin.js",
+    "note": "node note.js",
+    "endgame": "node endgame.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
